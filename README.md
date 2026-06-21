@@ -1,0 +1,1 @@
+Stronka na wzór platformy netflix, troche mało czasu ale navbar wyszedł w sumie nawet spoko, jeszcze by trzeba trochę z flexboxem powalczyć i responsywność dopolerować
