@@ -1,0 +1,15 @@
+@use 'variables' as *;
+
+:root {
+  font-family: $mainFont;
+  font-size: 87.5%;
+  box-sizing: border-box;
+}
+
+* {
+  box-sizing: inherit;
+}
+
+body {
+
+}
