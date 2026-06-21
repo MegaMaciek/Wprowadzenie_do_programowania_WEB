@@ -1,13 +1,67 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>zaliczenie</title>
+    <meta charset="UTF-8"/>
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Netflix</title>
+    <meta name="description" content="Netflix - streaming platform"/>
+
+    <script src="src/js/main.js" defer></script>
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+          rel="stylesheet">
+
+    <link rel="stylesheet" href="src/scss/main.scss">
   </head>
   <body>
-    <div id="app"></div>
+    <header>
+      <h1>
+        <a href="/" title="LOGO">Netflix</a></h1>
+      <nav>
+        <button id="abc">Przeglądaj</button>
+        <ul id="menu">
+          <li>
+            <a href="/" title="Strona Główna">Strona Główna</a>
+          </li>
+          <li>
+            <a href="/#Seriale">Seriale i programy</a>
+          </li>
+          <li>
+            <a href="/#Filmy">Filmy</a>
+          </li>
+          <li>
+            <a href="/#New">Nowe i popularne</a>
+          </li>
+          <li>
+            <a href="/#My">Moja lista</a>
+          </li>
+          <li>
+            <a href="/#Lang">Przeglądaj wg języka</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="search-container" id="searchContainer">
+        <button class="search-icon-btn" id="searchBtn" aria-label="Search">
+          <img class="search-icon" src="src/assets/images/search.svg" alt="Search">
+        </button>
+        <input
+                class="search-input"
+                id="searchInput"
+                type="text"
+                placeholder="Tytuły, osoby, gatunki"
+        />
+      </div>
+      <img src="src/assets/icons/bell.svg" alt="Notification Bell" id="bell"/>
+      <img src="src/assets/images/avatar.png" alt="Your avatar" id="avatar"/>
+    </header>
+    <main>
+
+    </main>
     <script type="module" src="/src/main.js"></script>
   </body>
 </html>
